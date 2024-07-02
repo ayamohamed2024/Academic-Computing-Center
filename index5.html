@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ACC</title>
+        <link rel="stylesheet" href="master.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    </head>
+    <body>
+        <section class="book-tests">
+            <div class="backBtn">
+                <a href="index.html"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="main">
+                <div class="test">
+                    <div class="heading">حجز الاختبارات</div>
+                        <form action="#" method="">
+                            <div class="card-details">
+                                <div class="card-box">
+                                    <span for="name" class="details">الاسم بالكامل: </span>
+                                    <input id="name" type="text"placeholder="ادخل اسمك" required/>
+                                </div>
+                                <div class="card-box">
+                                    <span for="group" class="details">رقم المجموعه:  </span>
+                                    <input id="group" type="text"placeholder="ادخل مجموعتك" required/>
+                                </div>
+                                <div class="card-box">
+                                    <span for="phone" class="details">رقم الهاتف:  </span>
+                                    <input id="phone" type="Phone"  placeholder="ادخل هاتفك" minlength="11" maxlength="11" required/>
+                                </div>
+                                <div class="card-box">
+                                    <span for="subject" class="details">الاختبار المراد حجزه:</span>
+                                    <input id="subject" type="text" placeholder="ادخل اسم الاختبار" required/>
+                                </div> 
+                                <div class="card-box">
+                                    <span for="exam" class="details">ميعادالاختبار: </span>
+                                    <input id="exam" type="date" required/>
+                                </div> 
+                            </div>
+                            <div class="require-box">
+                                <span  class="require" for="upload">في حالة دخولك الاختبار مسبقا برجاء<br> ادخل ايصال سداد رسوم اعادة الاختبار :</span>
+                                <input id="upload" type="file" />
+                            </div> 
+                            <div class="circel-form">
+                                <span class="circel-titel">هل سبق لك دخول الاختبار من قبل:</span>
+                                <div class="category">
+                                    <label for="yes">نعم</label>
+                                    <input id="yes" type="radio" name="answer">
+                                    <label for="no">لا</label>
+                                    <input id="no" type="radio" name="answer">
+                                </div>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="إرسال">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------- footer --------------------------->
+            <footer>
+                <div  class="footer-right">
+                    <p><span>مركز الحساب العلمي</span><br>
+                    أنشأ مركز الحساب العلمي – كلية التجارة – جامعة طنطا في 25 يوليو 1984 كوحدة
+                    ذات طابع خاص <br>وفقا لأحكام المادة 307 فقرة أولى بند 8 من اللائحة التنفيذية لقانون تنظيم الجامعات رقم 49 لسنة 1972 .</p>
+                </div>
+                <div class="footer-center">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p> <span>كلية تجارة جامعة طنطا </span> شارع سعيد</p>
+                        </div>
+                        <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <p> + 20 100 000 2399 </p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="#">accounta@commerce.tanta.edu.eg</a></p>
+                    </div>
+                </div>
+                <div class="footer-left">
+                    <a href="index.html">الصفحة الرئيسية</a> 
+                    <a href="index2.html">عن المركز</a>
+                    <a href="#box">الخدمات</a>
+                    <a href="contact.html">اتصل بنا</a>
+                </div>
+                <div class="social">
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="https://www.facebook.com/ACCTantaUN"> <i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </footer>
+        </section>  
+    </body>
+</html>
